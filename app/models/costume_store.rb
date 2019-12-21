@@ -1,5 +1,5 @@
 # Create your CostumeStore class here
-class CreateYourCostumesStores < ActiveRecords::Base
+class CreateYourCostumesStores < ActiveRecord::Base
   def change 
     create_table :costume_stores do |t|
       t.string :name
